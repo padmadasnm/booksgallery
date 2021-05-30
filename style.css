@@ -1,0 +1,88 @@
+header{
+    background-color: darkgray;
+    /* height: 40px; */
+}
+ul li{
+    display: inline-block;
+    margin: 10px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+
+}
+a:hover{
+    background-color: rgba(255, 255, 255, .5);
+}
+.row{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.head{
+    padding: 10px;
+}
+.head img{
+    width: 100%;
+    height: 400px;
+}
+.head h2{
+    text-align: center;
+}
+.context{
+   padding: 10px;
+   height: 10%;
+} 
+.col{
+    width: 30%;
+    border: 1px solid black;
+    text-align: justify;
+}
+.col img{
+    width: 100%;
+    height: 400px;
+}
+.col h2{
+    text-align: center;
+}
+.link{
+    display: flex;
+    width: 100%;
+}
+.sub{
+    width: 100%;
+}
+hr{
+    border: .1px solid lightsteelblue;
+}
+a p{
+    text-align: center;
+}
+a:hover{
+    text-decoration: underline;
+}
+a:hover #amazon{
+    color: blue;
+
+}
+.like{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.like_btn{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    color: lightgrey;
+    cursor: pointer;
+    border: 1px solid lightgrey;
+    border-radius: 50%;
+}
+.like_btn:hover{
+    border: 1px solid gray;
+    color: gray;
+}
